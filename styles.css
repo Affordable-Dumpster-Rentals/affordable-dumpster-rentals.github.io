@@ -1,0 +1,63 @@
+@import "reset.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 20px;
+}
+
+body::after {
+    content: "";
+    background: url(logoSmall.png);
+    opacity: 0.12;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+img {
+    max-width: 90vw;
+}
+
+p {
+    padding-top: 30px;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 40px;
+}
+
+footer p {
+    padding-top: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
