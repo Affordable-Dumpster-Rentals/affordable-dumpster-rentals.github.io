@@ -1,0 +1,110 @@
+@import "reset.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.headerLogo {
+    object-fit: fill;
+    padding-bottom: 20px;
+}
+header h1 {
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.headerNumber {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: medium;
+}
+.headerNumber a {
+    text-decoration: none;
+    color:  rgba(102, 149, 109, .80);
+}
+nav {
+    display: inline-block;
+    width: 100%;
+    text-align: -webkit-center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 10px;
+    border: rgba(102, 149, 109, .80);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    max-width: 450px;
+}
+nav ul li {
+    font-size: small;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.brandedDumpster {
+    display: flex;
+    width: 100%;
+}
+.offerText {
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+}
+
+
+footer {
+    display: sticky;
+    bottom: 0;
+    padding: 10px;
+    font-size: small;
+}
+footer ul li {
+    padding-top: 5px;
+}
+footer ul li a {
+    text-decoration: none;
+    color:rgba(102, 149, 109, .80);
+}
+.facebookText {
+    text-decoration: none;
+    color: black;
+}
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+@media only screen and (min-width: 900px) {
+    header {
+        align-items: center;
+    }
+    .headerLogo {
+        max-width: 500px;
+    }
+    .brandedDumpster {
+        max-width: 500px;
+    }
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+    }
+}
